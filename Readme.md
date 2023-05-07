@@ -2,6 +2,9 @@
 
 This is a simple example of drag and drop functionality using HTML, CSS, and JavaScript. The goal is to drag and drop square boxes between different drop zones.
 
+# Deployed link 
+[https://6457fd588f69eb1b6448855e--meek-paprenjak-71cd58.netlify.app/]
+
 # Technologies Used
 This project was created using the following technologies:
 
@@ -19,6 +22,11 @@ In addition to the basic drag and drop functionality, this project includes the 
 When you drag a box over a drop zone, the drop zone will highlight to indicate that the box can be dropped there.
 The draggable boxes have a shadow effect to make them look more three-dimensional.
 The drop zones have a background color to make them stand out.
+
+# Results
+
+<img src="./images/img1.jpg" alt="img1">
+<img src="./images/img2.jpg" alt="img2">
 
 # Credits
 
