@@ -27,6 +27,7 @@ The drop zones have a background color to make them stand out.
 
 <img src="./images/img1.jpg" alt="img1">
 <img src="./images/img2.jpg" alt="img2">
+<img src="./images/img3.jpg" alt="img2">
 
 # Credits
 
