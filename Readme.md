@@ -3,7 +3,7 @@
 This is a simple example of drag and drop functionality using HTML, CSS, and JavaScript. The goal is to drag and drop square boxes between different drop zones.
 
 # Deployed link 
-[https://6457fd588f69eb1b6448855e--meek-paprenjak-71cd58.netlify.app/]
+[https://kalvium-drag-drop.netlify.app]
 
 # Technologies Used
 This project was created using the following technologies:
