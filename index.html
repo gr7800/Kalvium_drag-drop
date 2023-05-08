@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dragdrop.css">
+    <link rel="stylesheet" href="./Styles/dragdrop.css">
     <title>Drag and Drop Example</title>
 </head>
 
-<body>
+<body onload="move('element')">
     <!-- ....... Navbar ............  -->
     <nav>
         <div class="navbar-logo">
@@ -44,7 +44,7 @@
             <div class="draggable" draggable="true" id="draggable5">Draggable 5</div>
         </div>
     </div>
-
+    <hr>
     <div id="seconddiv">
         <div class="draggable" draggable="true" id="draggable7">Draggable 7</div>
         <div class="draggable" draggable="true" id="draggable8">Draggable 8</div>
@@ -56,7 +56,18 @@
         <div class="draggable" draggable="true" id="draggable14">Draggable 14</div>
     </div>
 
+    <hr>
+
+    <!-- ........ Simple Dragble boxes .......  -->
+    <h1>Simple Drag and Drop</h1>
+    <div class="container">
+        <div class="element" style="background: darkred;"></div>
+        <div class="element" style="background: darkseagreen;"></div>
+        <div class="element" style="background: darkblue;"></div>
+        <div class="element" style="background: darkorange;"></div>
+    </div>
+
 </body>
 
 </html>
-<script src="dragdrop.js"></script>
+<script src="./Scripts/dragdrop.js"></script>

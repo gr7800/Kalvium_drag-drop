@@ -33,3 +33,31 @@ dropzones.forEach(dropzone => {
         dropzone.classList.remove("dragover");
     });
 });
+
+
+// ... Smaple dragble content ....... 
+
+var chooseElement;
+
+const move = (element)=>{
+    const elements=document.querySelectorAll(".element");
+
+    elements.forEach((el)=>{
+        el.addEventListener("mousedown",()=>{
+            el.style.position = "absolute"
+            chooseElement=el;
+            document.onmousemove=(e)=>{
+                var x = e.pageX
+                var y = e.pageY
+
+                chooseElement.style.left = x-50+"px";
+                chooseElement.style.top = y-50+"px"
+
+                console.log(chooseElement);
+            }
+        })
+    })
+    document.onmouseup=(e)=>{
+        chooseElement=null
+    }
+}
